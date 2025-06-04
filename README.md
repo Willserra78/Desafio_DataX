@@ -30,11 +30,10 @@ O repositório está organizado da seguinte forma:
 ├── Desafio Data_X.ipynb              # Notebook principal contendo toda a análise EDA e o relatório final.
 ├── TelecomX_Data.json              # Dataset original utilizado para a análise.
 ├── assets/                         # Pasta contendo os gráficos e outras mídias do projeto.
-│   ├── nome_do_seu_grafico_1.png   # Exemplo de imagem de gráfico
-│   └── nome_do_seu_grafico_2.png   # Exemplo de imagem de gráfico
+│   ├── grafico_barras_churn_Contract.png   # Gráfico de Churn por Tipo de Contrato
+│   └── grafico_barras_churn_InternetService.png # Gráfico de Churn por Serviço de Internet
 └── README.md                       # Este arquivo.
 
-*(Lembre-se de substituir `nome_do_seu_grafico_1.png` e `nome_do_seu_grafico_2.png` pelos nomes reais dos seus arquivos de imagem.)*
 
 ---
 
@@ -56,10 +55,9 @@ Para executar este projeto localmente (em Jupyter Notebook) ou reproduzi-lo no G
 
 1.  **Clonar o Repositório:**
     ```bash
-    git clone [https://github.com/SeuUsuario/NomeDoSeuRepositorio.git](https://github.com/SeuUsuario/NomeDoSeuRepositorio.git)
-    cd NomeDoSeuRepositorio
+    git clone [https://github.com/willserra/Desafio_DataX.git](https://github.com/willserra/Desafio_DataX.git)
+    cd Desafio_DataX
     ```
-    (Substitua `SeuUsuario/NomeDoSeuRepositorio` pelo caminho real do seu repositório GitHub.)
 
 2.  **Criar Ambiente Virtual (Recomendado - para uso local):**
     ```bash
@@ -112,13 +110,16 @@ Para ilustrar os insights mais impactantes, destacamos alguns dos gráficos gera
 
 ### Proporção de Churn por Tipo de Contrato
 *(Este gráfico demonstra claramente como clientes com contratos mensais têm uma taxa de Churn dramaticamente maior.)*
-![Churn por Tipo de Contrato](assets/nome_do_seu_grafico_1.png)
+![Churn por Tipo de Contrato](assets/grafico_barras_churn_Contract.png)
 
 ### Proporção de Churn por Serviço de Internet
 *(Este gráfico evidencia a alta taxa de Churn entre clientes com serviço de Fibra Ótica, um ponto crítico de atenção.)*
-![Churn por Serviço de Internet](assets/nome_do_seu_grafico_2.png)
+![Churn por Serviço de Internet](assets/grafico_barras_churn_InternetService.png)
 
 **Para visualizar *todos* os gráficos detalhados e a análise completa, acesse o notebook `Desafio Data_X.ipynb` diretamente no seu repositório GitHub.** O GitHub possui um renderizador de notebooks que exibirá todos os gráficos e o relatório de forma interativa.
+
+---
+
 ## 💡 Recomendações Estratégicas (Resumo)
 
 Com base nos insights, algumas recomendações para a TelecomX incluem:
@@ -149,7 +150,6 @@ O resultado final deste projeto é um notebook Jupyter (`Desafio Data_X.ipynb`) 
 
 Em caso de dúvidas ou para mais informações, sinta-se à vontade para entrar em contato:
 
-
 * **Seu Nome:** William S. Serra.
-* **LinkedIn:**[LinkedIn](https://www.linkedin.com/in/william-serra) 
-* **Email:**  [e-mail](mailto:w.serra1978@gmail.com)
+* **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/william-serra)
+* **Email:** [e-mail](mailto:w.serra1978@gmail.com)
